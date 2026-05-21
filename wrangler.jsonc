@@ -1,0 +1,9 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "echo-mcp",
+  "main": "src/index.ts",
+  "compatibility_date": "2025-01-21",
+  "observability": {
+    "enabled": true
+  }
+}
