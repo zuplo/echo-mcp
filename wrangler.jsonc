@@ -5,7 +5,7 @@
   "compatibility_date": "2025-01-21",
   "workers_dev": false,
   "routes": [
-    { "pattern": "mcp.echo.zuplo.io", "custom_domain": true }
+    { "pattern": "mcp.zuplo.io", "custom_domain": true }
   ],
   "observability": {
     "enabled": true,

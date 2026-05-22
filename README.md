@@ -8,7 +8,7 @@ Useful for debugging MCP clients, inspecting headers a client sends, testing tra
 
 Deployed and publicly available at:
 
-**https://mcp.echo.zuplo.io**
+**https://mcp.zuplo.io**
 
 `GET` returns a small JSON descriptor. `POST` accepts JSON-RPC 2.0 messages (single or batched).
 
@@ -28,7 +28,7 @@ Deployed and publicly available at:
 
 ## Connecting an MCP client
 
-Point any MCP client that supports the HTTP transport at `https://mcp.echo.zuplo.io`. No authentication required.
+Point any MCP client that supports the HTTP transport at `https://mcp.zuplo.io`. No authentication required.
 
 ## Local development
 
@@ -42,7 +42,7 @@ npm run deploy    # wrangler deploy
 ## Example
 
 ```sh
-curl -X POST https://mcp.echo.zuplo.io \
+curl -X POST https://mcp.zuplo.io \
   -H 'Content-Type: application/json' \
   -d '{"jsonrpc":"2.0","id":1,"method":"tools/list"}'
 ```
