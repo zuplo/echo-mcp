@@ -2,7 +2,7 @@
   "$schema": "node_modules/wrangler/config-schema.json",
   "name": "echo-mcp",
   "main": "src/index.ts",
-  "compatibility_date": "2025-01-21",
+  "compatibility_date": "2026-05-22",
   "workers_dev": false,
   "routes": [
     { "pattern": "mcp.zuplo.io", "custom_domain": true }
