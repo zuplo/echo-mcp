@@ -3,6 +3,9 @@
   "name": "echo-mcp",
   "main": "src/index.ts",
   "compatibility_date": "2025-01-21",
+  "routes": [
+    { "pattern": "mcp.echo.zuplo.io", "custom_domain": true }
+  ],
   "observability": {
     "enabled": true
   }
